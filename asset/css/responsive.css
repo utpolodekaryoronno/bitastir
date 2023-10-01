@@ -1,0 +1,490 @@
+/* max-width:1170px */
+@media all and (max-width: 1170px) {
+  .container {
+    padding: 0 2rem !important;
+  }
+  /* banner-content */
+  .banner-content {
+    max-width: 577px;
+    padding-left: 2rem;
+  }
+  .roadmap-row ul::after {
+    left: 24%;
+  }
+}
+/* max-width:1170px */
+@media all and (max-width: 1024px) {
+  /* min-menu  */
+  .logo {
+    z-index: 9999;
+  }
+  .menu-bars {
+    display: block;
+  }
+  .min-menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0a112def;
+    z-index: 99;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .min-menu.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .min-menu ul {
+    flex-direction: column;
+    margin-right: 0;
+    /* padding-top: 60px; */
+  }
+  .min-menu ul li {
+    line-height: 40px;
+  }
+  .min-menu ul li a {
+    display: inline-block;
+    padding-left: 0;
+  }
+  .min-menu ul li a:hover {
+    color: #e0922f;
+  }
+  .menu-login {
+    margin: 3rem 0;
+  }
+  .menu-login button {
+    border: 0.2rem solid #fff;
+    color: #fff;
+  }
+  .social-icon {
+    display: block;
+  }
+  /* banner-area */
+  .banner-caption-items {
+    margin-bottom: 3rem;
+  }
+  .banner-caption-text h2 {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+
+  /* masterspass-area */
+  .masterspass-border {
+    padding: 2rem 1rem;
+  }
+  /* token-items */
+  .token-items {
+    grid-column-gap: 5rem;
+  }
+  .token-option {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-option {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .single-option a::before {
+    content: "";
+    position: inherit;
+    width: 0;
+  }
+  /* bitstar-items */
+  .bitstar-items {
+    grid-gap: 1rem;
+  }
+  .partner-area {
+    display: none;
+  }
+  /* footer-items */
+  .footer-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-menu {
+    margin: 10px 0;
+  }
+}
+
+/* max-width:767px */
+@media all and (max-width: 767px) {
+  /* banner-area */
+  .banner-caption-items {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    grid-gap: 2rem;
+    margin-top: -100px;
+  }
+  .banner-caption-image {
+    order: -1;
+  }
+  .banner-content {
+    float: none;
+  }
+  .banner-caption-text {
+    margin-top: -150px;
+  }
+  /* masterspass */
+  .masterspass-border {
+    flex-direction: column;
+  }
+  .masterspass-single-item-left {
+    flex-basis: 0 0 100%;
+    max-width: 100%;
+  }
+  .masterspass-border {
+    padding: 2rem 4rem;
+  }
+  .masterspass-single-item-right {
+    display: none;
+  }
+  .masterspass-single-item-right-mobile {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .masterspass-single-item-right-mobile img {
+    max-width: 100%;
+  }
+  .masterspass-title {
+    margin-bottom: 3rem;
+  }
+  /* dsomember-items */
+  .dsomember-items {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 0;
+  }
+  .dso-single-item {
+    height: auto;
+  }
+  .dso-sport {
+    margin-top: 20px;
+  }
+  .dso-content {
+    flex-direction: column;
+  }
+  .dso-content-left,
+  .dso-content-right {
+    flex-basis: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  .dso-content-right {
+    border-left: none;
+  }
+  .sample-token {
+    justify-content: center;
+    align-items: center;
+  }
+  /* token-items */
+  .token-items {
+    display: inherit;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .token-image {
+    margin-top: 30px;
+  }
+  .input-tokenurl {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  /* bitstar-items */
+  .bitstar-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    text-align: center;
+  }
+  /* find-atarea */
+  .find-atarea::before {
+    position: inherit;
+  }
+  .find-items-at {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .nft-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bitastar-area {
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+  }
+  .find-atarea {
+    margin-bottom: 50px;
+  }
+  .nft-items {
+    margin-top: 2rem;
+  }
+  .nft-single-image img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .nft-single-image {
+    text-align: center;
+    margin: -70px;
+  }
+  .nft-single-image img {
+    max-width: 500px;
+    width: 100%;
+  }
+  /* signup-items */
+  .signup-area {
+    margin: 12rem 0;
+  }
+  .signup-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .signup-input {
+    margin-bottom: 0rem;
+    order: -1;
+    text-align: center;
+  }
+  .signup-input h5 {
+    max-width: 372px;
+    margin: 20px auto;
+  }
+  /* blog-post-items */
+  .blog-post-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-title h4 {
+    font-size: 1.6rem;
+  }
+  .section-title h2 {
+    font-size: 3rem;
+  }
+  .roadmap-row ul::after {
+    left: 48% !important;
+  }
+}
+
+/* max-width:600px */
+@media all and (max-width: 600px) {
+  .container {
+    padding: 0 1rem !important;
+  }
+  /* banner-area */
+  .banner-area::before {
+    background: #0d173f69;
+  }
+  .banner-caption-text h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .banner-content {
+    padding-left: 1rem;
+  }
+  .menu-bars {
+    right: 20px;
+  }
+  .mouse {
+    display: none;
+  }
+  .masterspass-border {
+    padding: 2rem 1rem;
+  }
+  .masterspass-area {
+    padding-top: 0;
+    padding-bottom: 5rem;
+  }
+  .section-title h4 {
+    font-size: 1.8rem;
+  }
+  .section-title h2 {
+    font-size: 3rem;
+  }
+
+  .dso-content-left,
+  .dso-content-right {
+    padding: 0;
+    flex-basis: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .token-area {
+    margin: 2rem 0;
+  }
+  .nft-single-image img {
+    max-width: 400px;
+  }
+  /* bitstar-items */
+  .bitstar-items {
+    grid-gap: 1rem;
+  }
+  .find-items-at {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-members-items {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0rem;
+  }
+  .footer-menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .copyright-item {
+    flex-wrap: wrap;
+  }
+  .copyright-item p {
+    margin-bottom: 5px;
+  }
+  .copyright-item p a {
+    margin-left: 0;
+    border-bottom: 0;
+  }
+  /* roadmap-caption */
+  .roadmap-caption {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+  }
+  .roadmap-caption::before {
+    position: inherit;
+  }
+}
+/* max-width:480px */
+@media all and (max-width: 480px) {
+  .banner-caption-text h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .banner-caption-text h5 {
+    font-size: 1.8rem;
+  }
+  .banner-caption-text h5 {
+    font-size: 1.8rem;
+  }
+  .banner-caption-text p {
+    margin-top: 2rem;
+  }
+  .banner-caption-text h5 {
+    font-size: 1.4rem;
+  }
+  .banner-link a {
+    max-width: 300px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+  }
+  /* masterspass-title */
+  .masterspass-title h3 {
+    font-size: 3rem;
+  }
+  .masterspass-title p {
+    font-size: 1.7rem;
+  }
+  .masterspass-list {
+    flex-direction: column;
+  }
+  .masterspass-int-access {
+    flex-direction: column;
+  }
+  .int-single-access {
+    padding-right: 0;
+    margin-bottom: 25px;
+  }
+  .int-single-access::before {
+    position: inherit;
+  }
+  .masterspass-btn {
+    margin-top: 20px;
+  }
+  .masterspass-btn {
+    flex-direction: column;
+  }
+  .masterspass-btn a {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .masterspass-bottom-item {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .masterspass-single-item-right {
+    flex-basis: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  /* token-description */
+  .token-description {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .token-left a {
+    max-width: 100%;
+    width: 100%;
+  }
+  .sample-token img {
+    width: 100%;
+  }
+  .find-items-at {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+  .find-single-at {
+    padding: 1rem 0;
+  }
+  /* nft-area */
+  .section-title h4 {
+    font-size: 1.6rem;
+  }
+  .section-title h2 {
+    font-size: 2.5rem;
+  }
+  .nft-single-image img {
+    max-width: 300px;
+  }
+  /* signup-from form */
+  .signup-from form {
+    flex-direction: column;
+  }
+  .signup-from form input {
+    border-right: 1px solid #eaf0f6;
+    border-radius: 6px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .signup-from form button {
+    border-radius: 6px;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .signup-masterpres {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .signup-img {
+    position: relative;
+    text-align: center;
+  }
+  .signup-img img {
+    width: 45%;
+  }
+  .signup-img::before {
+    bottom: -284px;
+  }
+  .signup-img::after {
+    bottom: -293px;
+  }
+  /* blog-post-items */
+  .blog-post-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team-caption h5 {
+    font-size: 1.8rem;
+  }
+  .roadmap-row ul::after {
+    left: 20% !important;
+  }
+}
+
+.banner-left-icon {
+  display: none;
+}
